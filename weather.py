@@ -7,7 +7,7 @@ import smtplib
 import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from time import time
+import time
 
 # Initialize email variables
 SENDER_EMAIL = "jmc.python.test@gmail.com"
